@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cocoa_beans"
+    },
+    "title": "King Of Cocoa",
+    "description": "Make Hot Chocolate",
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "minecraft:husbandry",
+  "criteria": {
+    "cocoa": {
+      "conditions": {
+        "item": {
+          "items": [
+            "stuff:hot"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "loot": [],
+    "recipes": [],
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}
